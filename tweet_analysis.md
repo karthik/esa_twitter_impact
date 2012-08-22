@@ -1,5 +1,5 @@
-# A few summary stats from ESA 2012
-
+# Summary stats from the esa2012 tweets
+These are some summaries on tweets tagged `esa2012` between mid-July and mid-August. There were approximately 5000 tweets about the conference (still waiting on the raw data) but I was able to scrape some analytics data from the [Topsy API](http://code.google.com/p/otterapi/). I have additional information on the most popular links, photos and videos from the conference but have not summarized those. 
 
 <!-- read external r code -->
 
