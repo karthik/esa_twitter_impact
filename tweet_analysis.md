@@ -5,27 +5,34 @@
 
 
 
-# Cumulative Exposure of ESA 2012 tweets
+## Cumulative Exposure of ESA 2012 tweets
+The cumulative number of impressions that tweets tagged esa2012 recevied since the last week of July until now.
 
 ![plot of chunk plot-fig0](https://raw.github.com/karthikram/esa_twitter_impact/master/figure/plot-fig0.png) 
 
 
-# Total ESA2012 tweets
+## Total ESA2012 tweets
+Ecologists tweeted ~4905 times from the last week of July to one week after the conference. Most number of tweets in a single day was Wednesday the 7th quite likely coinciding with Carly Strasser's very popular session.
+
 ![plot of chunk plot-fig0a](https://raw.github.com/karthikram/esa_twitter_impact/master/figure/plot-fig0a.png) 
 
 
-# Tweets by sentiment (blue = positive, red = negative)
+## Tweets by sentiment (blue = positive, red = negative)
+Tweets were categorized as positive or negative based on a standard set of keywords. 
 ![plot of chunk plot-fig3](https://raw.github.com/karthikram/esa_twitter_impact/master/figure/plot-fig3.png) 
 
 
-# Mentions of ESA2012 over time scaled by impact
+## Mentions of ESA2012 over time scaled by impact
+Tweets on a hourly timescale. High impact tweets are ones that were retweeted and favorited more than others. The lulls during the week correspond to night time hours.
+
 ![plot of chunk plot-fig1](https://raw.github.com/karthikram/esa_twitter_impact/master/figure/plot-fig1.png) 
 
-# Tweets by country
+## Tweets by country
+These are tweets and retweets by country. Not surprisingly most tweets originated from Portland but American ecologists also retweeted the most followed by the UK and Canada.
 ![plot of chunk plot-fig2](https://raw.github.com/karthikram/esa_twitter_impact/master/figure/plot-fig2.png) 
 
-# Popular tags associated with ESA 2012
-
+## Popular tags associated with ESA 2012
+These are tags that popped up as being popular alongside the esa2012 tag. Not sure why middleagedwhitedude and hawaiianshirt trended so much.
 ![plot of chunk plot-fig4](https://raw.github.com/karthikram/esa_twitter_impact/master/figure/plot-fig4.png) 
 
  
