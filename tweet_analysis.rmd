@@ -1,0 +1,38 @@
+# A few summary stats from ESA 2012
+
+<!-- read external r code -->
+```{r reading, echo=FALSE}
+read_chunk("tweet_stats.R")
+```
+
+# Cumulative Exposure of ESA 2012 tweets
+
+```{r plot-fig0, result="asis", echo = FALSE}
+<<cumplot>>
+```
+
+# Total ESA2012 tweets
+```{r plot-fig0a, result="asis", echo = FALSE}
+<<totalplot>>
+```
+
+# Tweets by sentiment
+```{r plot-fig3, result="asis", echo = FALSE}
+<<splot>>
+```
+
+# Mentions of ESA2012 over time scaled by impact
+```{r plot-fig1, result="asis", echo = FALSE}
+<<aplot>>
+```
+# Tweets by country
+```{r plot-fig2, result="asis", echo = FALSE}
+<<geoplot>>
+```
+# Popular tags associated with ESA 2012
+
+```{r plot-fig4, result="asis", echo = FALSE}
+<<dplot>>
+```
+ 
+
