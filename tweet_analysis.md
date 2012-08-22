@@ -15,7 +15,7 @@
 
 
 # Tweets by sentiment (blue = positive, red = negative)
-![plot of chunk plot-fig3](https://raw.github.com/karthikram/esa_twitter_impact/master/figure/plot-fig3.png) 
+
 
 
 # Mentions of ESA2012 over time scaled by impact
