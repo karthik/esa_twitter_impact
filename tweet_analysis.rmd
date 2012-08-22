@@ -51,7 +51,7 @@ These are tags that popped up as being popular alongside the esa2012 tag. Not su
 <<dplot>>
 ```
 ## R 
-R got mentioned consistently through the week and most on Thursday (when [rOpenSci](http://ropensci.org) held its workshop.) 
+R got mentioned consistently throughout the week and most on Thursday (when [rOpenSci](http://ropensci.org) held its workshop.) 
 
 ```{r plot-fig5, result="asis", echo = FALSE}
 <<rstats>>

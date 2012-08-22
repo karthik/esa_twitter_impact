@@ -42,7 +42,7 @@ These are tags that popped up as being popular alongside the esa2012 tag. Not su
 ![plot of chunk plot-fig4](https://raw.github.com/karthikram/esa_twitter_impact/master/figure/plot-fig4.png) 
 
 ## R 
-R got mentioned consistently through the week and most on Thursday (when [rOpenSci](http://ropensci.org) held its workshop.) 
+R got mentioned consistently throughout the week and most on Thursday (when [rOpenSci](http://ropensci.org) held its workshop.) 
 
 ![plot of chunk plot-fig5](https://raw.github.com/karthikram/esa_twitter_impact/master/figure/plot-fig5.png) 
 
