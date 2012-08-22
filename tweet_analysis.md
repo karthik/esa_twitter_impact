@@ -19,6 +19,7 @@ Ecologists tweeted ~4905 times from the last week of July to one week after the 
 
 ## Tweets by sentiment (blue = positive, red = negative)
 Tweets were categorized as positive or negative based on a standard set of keywords. 
+
 ![plot of chunk plot-fig3](https://raw.github.com/karthikram/esa_twitter_impact/master/figure/plot-fig3.png) 
 
 
@@ -29,10 +30,13 @@ Tweets on a hourly timescale. High impact tweets are ones that were retweeted an
 
 ## Tweets by country
 These are tweets and retweets by country. Not surprisingly most tweets originated from Portland but American ecologists also retweeted the most followed by the UK and Canada.
+
 ![plot of chunk plot-fig2](https://raw.github.com/karthikram/esa_twitter_impact/master/figure/plot-fig2.png) 
 
 ## Popular tags associated with ESA 2012
 These are tags that popped up as being popular alongside the esa2012 tag. Not sure why middleagedwhitedude and hawaiianshirt trended so much.
+
+
 ![plot of chunk plot-fig4](https://raw.github.com/karthikram/esa_twitter_impact/master/figure/plot-fig4.png) 
 
  
