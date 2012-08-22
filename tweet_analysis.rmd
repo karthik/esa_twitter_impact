@@ -18,7 +18,7 @@ opts_knit$set(base.url='https://raw.github.com/karthikram/esa_twitter_impact/mas
 <<totalplot>>
 ```
 
-# Tweets by sentiment
+# Tweets by sentiment (blue = positive, red = negative)
 ```{r plot-fig3, result="asis", echo = FALSE}
 <<splot>>
 ```
