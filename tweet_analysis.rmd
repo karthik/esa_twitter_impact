@@ -5,6 +5,7 @@
 ```{r reading, echo=FALSE}
 read_chunk("tweet_stats.R")
 opts_knit$set(base.url='https://raw.github.com/karthikram/esa_twitter_impact/master/')
+opts_chunk$set(fig.width=6, fig.height=5)
 ```
 
 # Cumulative Exposure of ESA 2012 tweets
