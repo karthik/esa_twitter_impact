@@ -7,26 +7,64 @@
 
 # Cumulative Exposure of ESA 2012 tweets
 
-![plot of chunk plot-fig0](https://raw.github.com/karthikram/esa_twitter_impact/master/figure/plot-fig0.png) 
+
+```
+## Error: object 'cum_exposure' not found
+```
+
+```
+## Error: object 'cumulative_plot' not found
+```
 
 
 # Total ESA2012 tweets
-![plot of chunk plot-fig0a](https://raw.github.com/karthikram/esa_twitter_impact/master/figure/plot-fig0a.png) 
+
+```
+## Error: object 'sentiment' not found
+```
 
 
 # Tweets by sentiment
-![plot of chunk plot-fig3](https://raw.github.com/karthikram/esa_twitter_impact/master/figure/plot-fig3.png) 
+
+```
+## Error: object 'sentiment' not found
+```
+
+```
+## Error: object 'sentiment_plot' not found
+```
 
 
 # Mentions of ESA2012 over time scaled by impact
-![plot of chunk plot-fig1](https://raw.github.com/karthikram/esa_twitter_impact/master/figure/plot-fig1.png) 
+
+```
+## Error: object 'ahistory' not found
+```
+
+```
+## Error: object 'hist_plot' not found
+```
 
 # Tweets by country
-![plot of chunk plot-fig2](https://raw.github.com/karthikram/esa_twitter_impact/master/figure/plot-fig2.png) 
+
+```
+## Error: object 'geodata' not found
+```
+
+```
+## Error: object 'geoplot' not found
+```
 
 # Popular tags associated with ESA 2012
 
-![plot of chunk plot-fig4](https://raw.github.com/karthikram/esa_twitter_impact/master/figure/plot-fig4.png) 
+
+```
+## Error: object 'd_data' not found
+```
+
+```
+## Error: object 'discovery_plot' not found
+```
 
  
 
