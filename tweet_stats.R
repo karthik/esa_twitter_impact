@@ -64,7 +64,7 @@ sentiment <- sentiment[, -c(1:2)]
 sentiment$date <- convert_time(sentiment$timestamp)
 
 ## @knitr splot
-sentiment_plot <- ggplot(sentiment, aes(date)) + geom_line(aes(y=positive_sentiment), colour="#18699c") +  geom_line(aes(y=negative_sentiment), colour="#a32e3a") + ylab("Count") + xlab("Time")  + opts(title="Sentiment of tweets under #ESA2012 hashtag")
+ggplot(sentiment, aes(date)) + geom_line(aes(y=positive_sentiment), colour="#18699c") +  geom_line(aes(y=negative_sentiment), colour="#a32e3a") + ylab("Count") + xlab("Time")  + opts(title="Sentiment of tweets under #ESA2012 hashtag")
 
 ## @knitr totalplot
 ggplot(sentiment, aes(date)) + opts(title="Number of tweets under #ESA2012 hashtag") +   geom_line(aes(y=mentions), colour="#474747") + ylab("Count") + xlab("Time")
