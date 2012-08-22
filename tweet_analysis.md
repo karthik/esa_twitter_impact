@@ -1,12 +1,12 @@
 # Summary stats from the esa2012 tweets
-These are some summaries on tweets tagged `esa2012` between mid-July and mid-August. There were approximately 5000 tweets about the conference (still waiting on the raw data) but I was able to scrape some analytics data from the [Topsy API](http://code.google.com/p/otterapi/). I have additional information on the most popular links, photos and videos from the conference but have not summarized those. 
+These are some summaries on tweets tagged `#esa2012` between mid-July and mid-August. There were approximately 4905 tweets about the conference (still waiting on the raw data) but I was able to scrape some analytics data from the [Topsy API](http://code.google.com/p/otterapi/). I have additional information on the most popular links, photos and videos from the conference but have not summarized those. 
 
 <!-- read external r code -->
 
 
 
 ## Cumulative Exposure of ESA 2012 tweets
-The cumulative number of impressions that tweets tagged esa2012 recevied since the last week of July until now.
+The cumulative number of impressions that tweets tagged `#esa2012` received between mid-July and now.
 
 ![plot of chunk plot-fig0](https://raw.github.com/karthikram/esa_twitter_impact/master/figure/plot-fig0.png) 
 
