@@ -83,3 +83,11 @@ trending_photos <- read.csv('data/trendingphotos.csv', header = T)
 trending_posts <- read.csv('data/trendingposts.csv', header = T)
 
 
+## @knitr rstats
+rstats <- subset(d_data, related.term=="#rstats")
+ggplot(rstats[15:20,], aes(variable, value)) + geom_line()  + opts(axis.text.x = theme_text(angle =-90))
+
+## @knitr esasocial
+esasocial <- subset(d_data, related.term=="#esasocial")
+ggplot(esasocial[15:20,], aes(variable, value)) + geom_line()  + opts(axis.text.x = theme_text(angle =-90))
+
