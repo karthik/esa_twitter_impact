@@ -3,7 +3,6 @@ library(plyr)
 library(stringr)
 library(maps)
 library(lubridate)
-setwd('~/Desktop/Tweet_analysis')
 
 # A time function to convert unix timestamp to something more useful.
 convert_time <- function(time) {
@@ -84,6 +83,4 @@ trending_photos <- read.csv('data/trendingphotos.csv', header = T)
 # trending posts 
 trending_posts <- read.csv('data/trendingposts.csv', header = T)
 
-# trending videos
-trending_videos <- read.csv('data/trendingvideos.csv', header = T)
 
