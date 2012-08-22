@@ -14,7 +14,7 @@
 ![plot of chunk plot-fig0a](https://raw.github.com/karthikram/esa_twitter_impact/master/figure/plot-fig0a.png) 
 
 
-# Tweets by sentiment
+# Tweets by sentiment (blue = positive, red = negative)
 ![plot of chunk plot-fig3](https://raw.github.com/karthikram/esa_twitter_impact/master/figure/plot-fig3.png) 
 
 
