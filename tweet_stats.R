@@ -11,7 +11,6 @@ as.POSIXlt(time, origin="1970-01-01", tz="UTC")
 
 
 ## @knitr  cum_exposure
-# Cumulative exposure of ESA tweets
 cum_exposure <- read.csv('data/cumulativeexposure.csv', header = T)
 cum_exposure$time <- convert_time(cum_exposure$timestamp)
 cum_exposure <- cum_exposure[, -c(1:2)]
@@ -23,7 +22,6 @@ print(cumulative_plot)
 
 
 ## @knitr  activity_history
-# Activity history
 ahistory <- read.csv('data/activityhistory.csv', header = T)
 ahistory <- ahistory[, -c(1:2)]
 ahistory$time <- convert_time(ahistory$timestamp)
@@ -33,7 +31,6 @@ hist_plot <- ggplot(ahistory, aes(time, mentions)) + geom_line() + geom_point(ae
 print(hist_plot)
 
 ## @knitr  discovery
-# discovery
 discovery <- read.csv('data/discovery.csv', header = T)
 discovery_data <- discovery[,1:33]
 discovery_table <- discovery[,c(1,2,34:51)]
@@ -47,7 +44,6 @@ discovery_plot <- ggplot(subset(d_data, related.term!=""), aes(variable, value))
 print(discovery_plot)
 
 ## @knitr  geoanalysis
-# geoanalysis
 geodata <- read.csv('data/geoanalysis.csv', header = T)
 geodata <- subset(geodata, Mentions > 0)
 geodata <- subset(geodata, Region !="World")
@@ -58,34 +54,32 @@ geoplot <- ggplot(subset(geodata, Query=="#esa2012"), aes(Region, Mentions)) + g
 print(geoplot)
 
 ## @knitr  sentiment
-# Sentiment of ESA tweeters
 sentiment <- read.csv('data/sentiment.csv', header = T)
 sentiment <- sentiment[, -c(1:2)]
 sentiment$date <- convert_time(sentiment$timestamp)
 
 ## @knitr splot
-ggplot(sentiment, aes(date)) + geom_line(aes(y=positive_sentiment), colour="#18699c") +  geom_line(aes(y=negative_sentiment), colour="#a32e3a") + ylab("Count") + xlab("Time")  + opts(title="Sentiment of tweets under #ESA2012 hashtag")
+ggplot(sentiment, aes(date)) + geom_line(aes(y=positive_sentiment), colour="#18699c") +  geom_line(aes(y=negative_sentiment), colour="#a32e3a") + ylab("Count") + xlab("Time")  + opts(title="Sentiment of tweets under #ESA2012 hashtag (blue = positive, red = negative)")
 
 ## @knitr totalplot
 ggplot(sentiment, aes(date)) + opts(title="Number of tweets under #ESA2012 hashtag") +   geom_line(aes(y=mentions), colour="#474747") + ylab("Count") + xlab("Time")
 
 
 ## @knitr  trending_links
-# trending links
 trending_links <- read.csv('data/trendinglinks.csv', header = T)
 
 ## @knitr  trending_photos
-# trending photos
 trending_photos <- read.csv('data/trendingphotos.csv', header = T)
 
 ## @knitr  trending_posts
-# trending posts 
 trending_posts <- read.csv('data/trendingposts.csv', header = T)
 
 
 ## @knitr rstats
 rstats <- subset(d_data, related.term=="#rstats")
 ggplot(rstats[15:20,], aes(variable, value)) + geom_line()  + opts(axis.text.x = theme_text(angle =-90))
+
+
 
 ## @knitr esasocial
 esasocial <- subset(d_data, related.term=="#esasocial")
