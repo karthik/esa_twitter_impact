@@ -1,6 +1,6 @@
 <style type="text/css">
 body {
-font-family: 'verdana';
+font-family: "Verdana";
 }
 </style>
 
