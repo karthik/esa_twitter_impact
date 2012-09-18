@@ -38,9 +38,11 @@ dim(tweets)
 # __________________________________________________________________________
 
 
-tweets$tweet_date <- strptime(tweets$created_at,"%a %b %d %H:%M:%S %z %Y")
 
 names(tweets) <- c("screen_name", "name", "id", "created_at", "desc", "location", "url", "followers", "friends", "status_count", "lang", "time_zone", "geo", "verified", "influence", "text", "tweet_id", "tweet_date", "retweets", "in_reply_to", "reply_id", "source", "coords_type", "cooords_lat", "coords_long", "location_search_id", "doc_lang", "sentiment")
+
+tweets$tweet_date <- strptime(tweets$created_at,"%a %b %d %H:%M:%S %z %Y", tz="America/Los_Angeles")
+tweets <- tweets[, -4]
 
 # Now writing the cleaned file to disk.
 write.csv(tweets, file="~/Dropbox/esa_twitter_impact/data/cleaned_twitter_data.csv")
