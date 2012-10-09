@@ -1,4 +1,5 @@
 data/*.zip
+source_data/*
 testing.R
 .dropbox
 Icon
