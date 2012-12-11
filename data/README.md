@@ -12,7 +12,6 @@ final_dataset.rda
 geoanalysis.csv
 influential_stats.csv
 sentiment.csv
-today.csv
 trendinglinks.csv
 trendingphotos.csv
 trendingposts.csv
@@ -27,10 +26,10 @@ trendingvideos.csv
 
 `cleaned_twitter_data.csv` - Raw data from Topsy was cleaned. This entailed properly typecasting the data, formatting field names.
  
-Cleaned data was split into two files so we could manually scan people's Twitter profiles and fill in missing info. The two files are below:  
+Cleaned data was split into two files so we could manually scan people's Twitter profiles and fill in missing info. The two files are below. They were merged using `today.csv`:  
 
 ```
-mt_karthik.csv,  mt_lortie.csv
+mt_karthik.csv,  mt_lortie.csv, today.csv
 ```
 
 Finally we merged in the information from these two with all_tweets to create a final dataset:  
