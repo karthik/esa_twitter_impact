@@ -8,7 +8,6 @@ activityhistory.csv
 cumulativeexposure.csv
 discovery.csv
 esa_tweets.csv
-final_dataset.rda
 geoanalysis.csv
 influential_stats.csv
 sentiment.csv
@@ -35,8 +34,8 @@ mt_karthik.csv,  mt_lortie.csv, today.csv
 Finally we merged in the information from these two with all_tweets to create a final dataset:  
 
 ```
-final_data.rda - The final dataset
-final_data.csv - Same data written as csv for non-R use.
+final_dataset.rda - The final dataset
+final_dataset.csv - Same data written as csv for non-R use.
 ```
 
 ## Metadata 
