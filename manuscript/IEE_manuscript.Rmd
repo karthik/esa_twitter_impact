@@ -1,11 +1,12 @@
 <!-- read external r code -->
-```{r reading, echo=FALSE}
-read_chunk("tweet_stats.R")
-opts_knit$set(base.url='/Users/karthik/Dropbox/esa_twitter_impact/')
-opts_chunk$set(fig.width=8, fig.height=6)
+```{r reading, echo = FALSE}
+opts_knit$set(base.url = '/Users/karthik/Dropbox/esa_twitter_impact/')
+read_chunk("analysis/metrics.R") # The analytics stuff
+read_chunk("analysis/analysis.R") # The raw data and corresponding analysis
+opts_chunk$set(fig.width = 8, fig.height = 6)
 ```
 
-# Early Draft title: Social media interactions increase the impact of large scientific conferences and faciliate rapid collaborations.
+# Early Draft title: Social media interactions increase the impact and utility of large scientific conferences: A case study from the Ecological Society of America meeting.
 
 __Karthik Ram__ and __Christopher J. Lortie__
 
@@ -19,7 +20,7 @@ __A data analysis section of some sort__
 
 
 # Summary stats from the esa2012 tweets
-These are some summaries on tweets tagged `#esa2012` between mid-July and mid-August. There were approximately 4905 tweets about the conference (still waiting on the raw data) but I was able to scrape some analytics data from the [Topsy API](http://code.google.com/p/otterapi/). I have additional information on the most popular links, photos and videos from the conference but have not summarized those. 
+These are some summaries on tweets tagged `#esa2012` between mid-July and mid-August. There were approximately 4905 tweets about the conference (still waiting on the raw data) but I was able to scrape some analytics data from the [Topsy API](http://code.google.com/p/otterapi/). I have additional information on the most popular links, photos and videos from the conference but have not summarized those.
 
 Please note that these results aren't ready to be shared yet (barely scratched the surface) but do watch the repository for updates.
 

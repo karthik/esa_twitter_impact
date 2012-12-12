@@ -6,6 +6,7 @@ rm(list = ls())
 library(plyr)
 library(data.table)
 library(ggplot2)
+library(pander)
 
 # Reading in all the analytics data
 activityhistory <- read.csv("activityhistory.csv", header = T)

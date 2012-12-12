@@ -11,7 +11,7 @@ This is a short paper by [Christopher Lortie](http://www.yorku.ca/gradbiol/facul
 |__ manuscript (raw markdown file and PDF)
 ``` 
 
-__Target journal:__ PLOS
+__Target journal:__ [PLOS](http://www.plosone.org/home.action)
 
 __Questions__: Any questions about this work in progress are welcome. [karthik dot ram at gmail](mailto:karthik.ram@gmail.com)
 
